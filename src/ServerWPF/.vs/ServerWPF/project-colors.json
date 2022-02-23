@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f76ac6b4-a7a3-41cc-8b95-050d2c089c99": {
+      "ProjectGuid": "f76ac6b4-a7a3-41cc-8b95-050d2c089c99",
+      "DisplayName": "ServerWPF",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
