@@ -7,13 +7,10 @@ namespace ServerWPF
     class Server
     {
         TcpListener Listener; // Объект, принимающий TCP-клиентов
-
         // Запуск сервера
         public Server(int Port)
         {
             // Создаем "слушателя" для указанного порта
-
-
             Listener = new TcpListener(IPAddress.Any, Port);
             Listener.Start(); // Запускаем его
             Method();
@@ -31,7 +28,6 @@ namespace ServerWPF
                 });
             }
         }
-
         // Остановка сервера
         ~Server()
         {
